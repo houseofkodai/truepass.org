@@ -335,7 +335,7 @@
                 <h2>truePASS: The stamp of real trust</h2>
                 <p>PASS (Personal Authentic Software Services) is a simple process that enables instant verification of who created something and whether it's been modified.</p>
                 <div class="code-block">
-                    0+pk+Ed25519(sk, sha512(pk+content))
+                    0+pk+Ed25519(sk, hash(content))
                 </div>
                 <p>For the technically curious, that's all there is to it. Just <span class="highlight">97 bytes</span> of cryptographic proof.</p>
             </section>
